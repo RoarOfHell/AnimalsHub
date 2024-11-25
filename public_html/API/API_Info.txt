@@ -1,0 +1,81 @@
+Общее описание: в ссылке замените на пример $login на нужное вам значение в ссылке указана переменная php
+
+Название файла: SendMessageAPI.php
+Описание: API предназначенная для отправки сообщений (GET запрос) (пароль пользователя отправлять зашифрованным через md5)
+https://animalshub.ru/API/SendMessageAPI.php?login=$login&pass=$password&recipient=$recipient&message=$message
+
+Название файла: GetAllChatsAPI.php
+Описание: API предназначенная для получения всех чатов пользователя (GET запрос) (пароль пользователя отправлять зашифрованным через md5)
+https://animalshub.ru/API/GetAllChatsAPI.php?login=$login&pass=$password
+
+Название файла: CheckMessagesAtChat.php
+Описание: API предназначенная для чтения всех сообщений в чате (GET запрос) (пароль пользователя отправлять зашифрованным через md5)
+https://animalshub.ru/API/CheckMessagesAtChat.php?login=$login&pass=$password&chatid=$chatId
+
+Название файла: GetAllFavouritesPetsAPI.php
+Описание: API предназначенная для получения всех карточек добавленых в избранное (GET запрос)
+https://animalshub.ru/API/GetAllFavouritesPetsAPI.php?userid=$userId
+
+Название файла: AddNewCardPetAPI.php
+Описание: API предназначенная для добавления карточек с животными (POST запрос: login - логин пользователя, pass - пароль пользователя(зашифрованный через md5), petNickname - имя животного, petDescription - описание животного, petPrice - стоимость животного, petType - тип животного, file - изображение животного)
+https://animalshub.ru/API/AddNewCardPetAPI.php
+
+Название файла: RemoveCardAPI.php
+Описание: API предназначенная для удаления карточек с животными (GET запрос) (пароль пользователя отправлять зашифрованным через md5)
+https://animalshub.ru/API/RemoveCardAPI.php?login=$login&pass=$password&petId=$petId
+
+Название файла: AddFavouritesPetAPI.php
+Описание: API предназначенная для добавления карточек в избранное (GET запрос) (пароль пользователя отправлять зашифрованным через md5)
+https://animalshub.ru/API/AddFavouritesPetAPI.php?login=$login&pass=$password&petid=$petid
+
+Название файла: RemoveFavouritesAPI.php
+Описание: API предназначенная для удаления карточек из избранного (GET запрос) (пароль пользователя отправлять зашифрованным через md5)
+https://animalshub.ru/API/RemoveFavouritesAPI.php?login=$login&pass=$password&petid=$petid
+
+Название файла: GetAllPetsAPI.php
+Описание: API предназначенная для получения всех карточек с животными (GET запрос)
+https://animalshub.ru/API/GetAllPetsAPI.php?userid=$userId
+
+Название файла: GetAllRegionsAPI.php
+Описание: API предназначенная для получения всех регионов и городов РФ (GET запрос)
+https://animalshub.ru/API/GetAllRegionsAPI.php
+
+Название файла: LoginAPI.php
+Описание: API предназначенная для авторизации пользователя (GET запрос) (пароль пользователя отправлять зашифрованным через md5)
+https://animalshub.ru/API/LoginAPI.php?login=$login&pass=$password
+
+Название файла: ChangeMessageAPI.php
+Описание: API предназначенная для изменения сообщения (GET запрос) (пароль пользователя отправлять зашифрованным через md5)
+https://animalshub.ru/API/ChangeMessageAPI.php?login=$login&pass=$password&messageid=$messageId&message=$message
+
+Название файла: RemoveMessageAPI.php
+Описание: API предназначенная для удаления сообщения (GET запрос) (пароль пользователя отправлять зашифрованным через md5)
+https://animalshub.ru/API/RemoveMessageAPI.php?login=$login&pass=$password&messageid=$messageId
+
+Название файла: RegistrationAPI.php
+Описание: API предназначенная для регистрации пользователя (GET запрос)
+https://animalshub.ru/API/RegistrationAPI.php?login=$login&pass=$password
+
+Название файла: profile_cover.jpg
+Описание: данная ссылка предназначена для получения фона профиля
+https://animalshub.ru/images/android-app/style-1/background-profile/profile_cover.jpg
+
+Название файла: SaveProfileSettingsAPI.php
+Описание: API предназначенная для сохранения изменения данных пользователя (GET запрос) (пароль пользователя отправлять зашифрованным через md5)
+https://animalshub.ru/API/SaveProfileSettingsAPI.php?login=$login&pass=$password&name=$name&middleName=$middleName&phone=$phone&city=$city&imageUrl=$imageUrl&birthday=$birthday&gender=$gender&mail=$mail
+
+Название файла: GetUserInfoAPI.php
+Описание: API предназначенная для получения информации пользователя (GET запрос) (пароль пользователя отправлять зашифрованным через md5)
+https://animalshub.ru/API/GetUserInfoAPI.php?login=$login&pass=$password
+
+Название файла: SendSecretKeyToMail.php
+Описание: API предназначенная для отправки секретного ключа на почту (GET запрос)
+https://animalshub.ru/API/SendSecretKeyToMail.php?mail=$mail
+
+Название файла: checksecretkey.php
+Описание: API предназначенная для проверки секретного ключа (GET запрос)
+https://animalshub.ru/API/checksecretkey.php?mail=$mail&typekey=$typeKey&key=$key
+
+Название файла: SetNewPassword.php
+Описание: API предназначенная для установки нового пароля (GET запрос)
+https://animalshub.ru/API/SetNewPassword.php?mail=$mail&typekey=$typeKey&key=$key&pass=$password

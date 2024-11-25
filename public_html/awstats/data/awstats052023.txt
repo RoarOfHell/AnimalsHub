@@ -1,0 +1,439 @@
+AWSTATS DATA FILE 7.7 (build 20180105)
+# If you remove this file, all statistics for date 202305 will be lost/reset.
+# Last config file used to build this data file was ./awstats.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 1971                
+POS_TIME 2661                
+POS_VISITOR 10231               
+POS_DAY 12059               
+POS_DOMAIN 3574                
+POS_LOGIN 3902                
+POS_ROBOT 4057                
+POS_WORMS 4437                
+POS_EMAILSENDER 4568                
+POS_EMAILRECEIVER 4711                
+POS_SESSION 12273               
+POS_SIDER 12480               
+POS_FILETYPES 4846                
+POS_DOWNLOADS 5017                
+POS_OS 5065                
+POS_BROWSER 5250                
+POS_SCREENSIZE 5811                
+POS_UNKNOWNREFERER 5885                
+POS_UNKNOWNREFERERBROWSER 6233                
+POS_ORIGIN 6379                
+POS_SEREFERRALS 6523                
+POS_PAGEREFS 6689                
+POS_SEARCHWORDS 6875                
+POS_KEYWORDS 7027                
+POS_MISC 2325                
+POS_ERRORS 7086                
+POS_CLUSTER 3758                
+POS_SIDER_404 7223                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20230601000002 20092 4095246 19111459000111
+FirstTime 20230527154356
+LastTime 20230531233542
+LastUpdate 20230601062519 20092 0 20091 0 0
+TotalVisits 76                  
+TotalUnique 42                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 42                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+AddToFavourites 0 0 0
+TotalMisc 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+QuickTimeSupport 0 0 0
+RealPlayerSupport 0 0 0
+FlashSupport 0 0 0
+JavaEnabled 0 0 0
+DirectorSupport 0 0 0
+PDFSupport 0 0 0
+JavascriptDisabled 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 1607 1607 16083287 92 95 246222
+1 5053 5053 28536367 32 37 188707
+2 5735 5735 21998755 1 2 5242
+3 5045 5045 17447600 1 4 2396
+4 1031 1031 3854620 1 3 2463
+5 135 135 497676 1 2 2200
+6 577 577 2154172 0 0 0
+7 2250 2250 8398792 0 0 0
+8 1521 1521 10332748 1 13 5507
+9 4260 4260 19118169 2 4 7774
+10 3394 3394 15293418 13 16 74614
+11 2291 2291 9375014 0 3 0
+12 3431 3431 14574519 2 5 11746
+13 332 332 3903503 31 43 118245
+14 8363 8363 54956057 12 18 49028
+15 8441 8441 72329364 122 363 534856
+16 590 590 5509531 101 120 204703
+17 1312 1312 7950751 56 88 115998
+18 914 914 10532026 265 283 221866
+19 1861 1861 21981079 779 791 228879
+20 1620 1620 14279925 1076 1091 348272
+21 2426 2426 15387378 1227 1232 265075
+22 2038 2038 13244572 1269 1272 250256
+23 1866 1866 14264751 1226 1229 367562
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 7
+ru 51298 51298 339069875
+ip 14213 14213 60556811
+de 568 568 2349235
+us 9 9 18066
+gb 2 2 4008
+es 2 2 4075
+nl 1 1 2004
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 7
+yandex 212 1330937 20230531190438 0
+^java\/[0-9] 19 4769 20230528221711 0
+no_user_agent 10 4221 20230528104022 0
+curl 3 0 20230531151800 0
+bot[\s_+:,\.\;\/\\-] 2 4080 20230531170130 0
+googlebot 2 4008 20230530054434 0
+custo 1 2010 20230530222629 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 5
+php 64460 386716120 0 0
+Unknown 1261 7572600 0 0
+json 160 40160 0 0
+html 181 356280 0 0
+map 31 7318914 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 8
+win7 1 1
+linux 17 17
+linuxandroid 1182 1182
+win10 2921 2921
+macosx 4 4
+ios_iphone 120 120
+Unknown 61846 61846
+winxp 2 2
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 25
+firefox68.0 1 1
+chrome91.0.4472.114 1 1
+firefox109.0 1 1
+msie11.0 1 1
+chrome88.0.4324.188 7 7
+android 514 514
+chrome113.0.0.0 2053 2053
+chrome90.0.4430.91 16 16
+chrome100.0.4896.127 72 72
+msie6.0 1 1
+chrome87.0.4280.141 294 294
+chrome83.0.4103.97 2 2
+firefox113.0 135 135
+firefox70.0 3 3
+chrome52.0.2743.116 1 1
+Unknown 61843 61843
+chrome109.0.0.0 1 1
+firefox102.0 2 2
+mozilla 4 4
+opera97.0.0.0 1 1
+safari14.0.3 5 5
+chrome94.0.4606.61 4 4
+safari13.0.3 115 115
+chrome110.0.0.0 1015 1015
+chrome60.0.3112.107 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 4
+cpp-httplib/0.10.9 20230528062838
+Mozilla/5.0_(compatible;_CensysInspect/1.1;__https://about.censys.io/) 20230531083955
+okhttp/3.12.13 20230531200850
+Mozilla/5.0_(compatible;_BackupLand/1.0;_https://go.backupland.com/;_Domain_check_for_viruses;) 20230529212959
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+okhttp/3.12.13 20230531200850
+cpp-httplib/0.10.9 20230528062838
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 62750 62750
+From1 2 2
+From2 5 5
+From3 1 1
+From4 3335 3335
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+google 3 3
+yandex 2 2
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+https://antoshabrain.blogspot.com 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+401 1 381
+301 4 950
+404 6113 1198148
+302 203 702107
+500 67 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 56
+/images/android-app/MutableState 1 -
+/API/GetAllRegionsApi.php 1 https://animalshub.ru/AnimalsHub/profile
+/image/icon.ico 1 -
+/users/40/petImages/60/a473c67061b6d0bda961.jpg 1 https://animalshub.ru/AnimalsHub/animal
+/wp-login.php 2 http://animalshub.ru/wp-login.php
+/main 2 -
+/php/UploadImage.php', 1 -
+/socket.io/ 5703 https://animalshub.ru/chat
+/users/17/petImages/84/4f962d16e1e2c205d039.jpg 5 -
+/js/style.css 9 https://animalshub.ru/js/index
+/users/40/petImages/60/89680a00ef4c20acfce8.jpg 1 https://animalshub.ru/AnimalsHub/animal
+/users/40/petImages/62/1684598596_new_wei%20injured.jpg%22 1 -
+/testing/testingForm. 1 -
+/chat:3000 2 -
+/php/AddPetCard.php 1 -
+/API/GetAllFavouritesPetsAPI.php 9 https://animalshub.ru/AnimalsHub/profile
+/AnimalsHub/authorization24.js 1 https://animalshub.ru/AnimalsHub/authorization
+/main.php 2 -
+/users/17/petImages/66/chat_background.jpg 1 -
+/php/AddNewCardPet.php 1 -
+/testing/vendor/singup.php 1 https://animalshub.ru/testing/testingForm
+/API/GetAllPetsAPI.php 15 https://animalshub.ru/AnimalsHub/profile
+/AnimalsHub/generate.js 1 https://animalshub.ru/AnimalsHub/profile
+/guide/guideProfileIcon.jpg 3 -
+/users/40/petImages/62/04dc08ec8e8dfd0ffad9.jpg 1 https://animalshub.ru/AnimalsHub/animal
+/users/17/petImages/67/chat_background.jpg 1 -
+/users/40/petImages/62/1684598596_new_wei%20injured.jpg 66 https://animalshub.ru/
+/users/17/petImages/84/940a9de73596298680cb.jpg 5 -
+/API/GetAllStyle.php 3 -
+/API/php/text.php 1 -
+/AnimalsHub/profile.phpwedwed 1 -
+/js/cards10.js 6 https://animalshub.ru/js/index
+/robots.txt 35 -
+/users/17/petImages/65/chat_background.jpg 1 -
+/users/40/petImages/63/images.jpg 35 https://animalshub.ru/index
+/AnimalsHub/ 3 -
+/users/17/avatar/1682021916926.jpg 6 https://animalshub.ru/AnimalsHub/profile
+/AnimalsHub/AnimalsHub/animal 4 https://animalshub.ru/AnimalsHub/profile
+/users/40/petImages/62/8aad195f3d209458de70.jpg 1 https://animalshub.ru/AnimalsHub/animal
+/AnimalsHub/index 1 https://animalshub.ru/AnimalsHub/authorization
+/profile 1 -
+/API/ 2 -
+/AnimalsHub/test48.js 4 https://animalshub.ru/AnimalsHub/profile
+/users/40/petImages/61/photo_2023-04-25_14-44-08.jpg 52 https://animalshub.ru/
+/socket.io/socket.io.js 19 https://animalshub.ru/chat
+/users/40/petImages/60/images%20(2).jpg 56 -
+/API/GetAllRegionsAPI.php 9 https://animalshub.ru/AnimalsHub/profile
+/js/socket.io/socket.io.js 4 https://animalshub.ru/
+/users/17/petImages/84/1685541963107.jpg 12 -
+/API/GetUserInfoAPI.php 1 -
+/php/AddNewPetCard.php 1 -
+/API/UploadImageAPI.php 2 -
+/awstats/ 3 -
+/AnimalsHub/Array 8 https://animalshub.ru/AnimalsHub/profile
+/API/php/test.php 1 -
+/images/android-app/MutableState(value=style-1-light)@15589906/colors/colors.json 2 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 42
+85.172.92.58 24018 24018 170280806 20230531222908
+89.23.157.123 20215 20215 84358886 20230531190145
+2a03:d000:8507:fa2:a280:f73d:c170:746d 14204 14204 60533746 20230531151358
+178.176.171.78 4443 4443 24236728 20230531123401
+89.23.158.240 2423 2423 55777148 20230531220341
+146.0.42.119 360 360 1347672 20230529021553
+109.248.172.122 139 139 3899875 20230531135050
+89.163.144.208 102 102 492440 20230531103756
+78.31.67.94 86 86 337696 20230529123458
+89.163.210.106 17 17 154138 20230531152711
+85.249.168.58 14 14 299260 20230529102917
+167.248.133.38 1 1 2010 20230531083955
+85.249.166.96 11 11 67113 20230529113832
+46.48.13.161 1 1 2004 20230529073301
+176.53.221.190 1 1 2004 20230529120638
+46.4.33.48 1 1 2010 20230531015934
+192.42.116.184 1 1 2004 20230530011044
+77.68.119.205 1 1 2004 20230527224521
+35.87.229.155 1 1 2010 20230531233542
+185.195.25.207 1 1 2004 20230529214258
+89.23.156.18 2 2 15225 20230529120858
+95.25.17.5 2 2 2071 20230528164914
+176.53.222.172 1 1 2004 20230528142211
+176.53.219.98 1 1 2004 20230530114142
+178.70.248.10 1 1 2010 20230531180539
+66.29.152.203 3 3 6012 20230529134120
+35.88.76.73 1 1 2010 20230531032205
+208.80.194.42 1 1 2004 20230528013415
+185.12.124.78 1 1 2004 20230529212959
+95.25.21.164 14 14 98089 20230527211611
+95.25.20.103 1 1 8476 20230529163833
+2a03:94e0:ffff:185:181:60:0:12 1 1 2004 20230529090508
+51.83.238.159 1 1 2004 20230528062838
+89.104.111.18 1 1 2010 20230531113022
+212.107.27.111 2 2 4075 20230530124228
+95.25.21.204 5 5 4142 20230530202037
+91.190.85.139 1 1 2004 20230528104022
+167.94.138.50 1 1 2010 20230531081933
+54.202.25.166 1 1 2010 20230531032157
+188.233.10.108 2 2 4008 20230528173432
+89.163.145.2 2 2 15279 20230528184834
+2a00:1fa1:42dc:6557:302b:a70:e77f:733f 8 8 21061 20230531180420
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 5
+20230527 662 662 5707982 7
+20230528 14745 14745 97933700 15
+20230529 21725 21725 125973717 19
+20230530 5027 5027 37369316 7
+20230531 23934 23934 135019359 28
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+0s-30s 35
+30s-2mn 4
+2mn-5mn 3
+15mn-30mn 1
+1h+ 22
+5mn-15mn 5
+30mn-1h 6
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 46
+/API/GetUserInfoAPI.php 30021 15743750 4 7
+/API/GetAllPetsAPI.php 10994 167364871 0 15
+/API/GetAllChatsAPI.php 10415 125039373 1 0
+/API/GetBlackListUserAPI.php 10413 216184 0 3
+/AnimalsHub/get_user_with_session.php 731 89880 0 2
+/AnimalsHub/profile 668 5106900 2 1
+/API/GetAllRegionsAPI.php 337 74428472 0 4
+/API/GetAllStyle.php 222 12245 1 0
+/API/GetAllFavouritesPetsAPI.php 219 409323 0 2
+/index 218 438234 4 0
+/testing/testingForm 2 1368 1 0
+/API/CheckMessagesAtChat.php 77 693 0 0
+/php/UploadImage.php 49 3146 1 0
+/check_favorite.php 48 908 0 0
+/images/android-app/style-1-light/colors/colors.json 160 40160 7 3
+/API/SetOnlineStatus.php 97 0 0 0
+/AnimalsHub/update_user_session.php 132 0 0 0
+/API/SendMessageAPI.php 2 18 0 0
+/API/LoginAPI.php 155 66893 0 1
+/API/SaveProfileSettingsAPI.php 35 315 0 0
+/AnimalsHub/LogIn.php 58 661 0 0
+/AnimalsHub/profile.php 14 83012 0 0
+/AnimalsHub/about_us 48 93666 3 5
+/php/test.php 13 15 1 0
+/API/RemoveFavouritesAPI.php 43 387 0 0
+/AnimalsHub/create_ad 94 584732 0 0
+/API/GetAnimalsBreedAPI.php 83 3201725 1 0
+/API/AddBlackListUserAPI.php 2 18 0 0
+/js/node_modules/socket.io/client-dist/socket.io.js.map 31 7318914 0 0
+/AnimalsHub/authorization 128 264945 4 4
+/API/RemoveCardAPI.php 29 290 0 0
+/AnimalsHub/animal 38 210230 0 0
+/php/RemoveCard.php 4 40 0 0
+/AnimalsHub/registration 22 235991 2 3
+/API/GetAllAnimalsTypeAPI.php 140 49700 0 0
+/php/AddNewCardPet.php 1 116 0 0
+/API/AddUserReportAPI.php 2 0 0 0
+/API/RegistrationAPI.php 9 192 0 0
+/ 177 352994 42 24
+/js/index 1 1655 0 0
+/API/test.php 12 290 0 0
+/API/AddFavouritesPetAPI.php 30 300 0 0
+/API/AddNewCardPetAPI.php 64 2743 0 1
+/js/ 4 3286 0 0
+/chat 42 634879 2 1
+/AnimalsHub/test.php 9 560 0 0
+END_SIDER
